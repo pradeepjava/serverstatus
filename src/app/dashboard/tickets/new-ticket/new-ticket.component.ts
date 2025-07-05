@@ -9,5 +9,8 @@ import { ButtonComponent } from "../../../shared/button/button.component";
   styleUrl: './new-ticket.component.css'
 })
 export class NewTicketComponent {
+onSubmit(_t4: HTMLInputElement) {
+throw new Error('Method not implemented.');
+}
 
 }

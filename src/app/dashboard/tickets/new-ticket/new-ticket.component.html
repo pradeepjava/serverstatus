@@ -1,9 +1,9 @@
 <div id="new-ticket">
   <p>new-ticket works!</p>
-  <form>
+  <form (ngSubmit)="onSubmit(titleInput)">
     <p>
       <label>Title</label>
-      <input name="title" id="title" />
+      <input name="title" id="title" #titleInput/>
     </p>
     <p>
       <label>Request</label>
